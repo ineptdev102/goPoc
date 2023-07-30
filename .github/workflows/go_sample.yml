@@ -28,7 +28,9 @@ jobs:
         echo $files
      
     - name: Install dependencies
-      run: go get ./module/sample/go/
+      run: 
+        cd module/sample/go/
+        go get .
       
     - name: Test
       run: go test -v ./module/sample/go
