@@ -1,0 +1,5 @@
+go 1.19
+
+use ./module/sample/go
+
+use ./module/other/newPkg/go
