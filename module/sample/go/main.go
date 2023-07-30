@@ -7,5 +7,5 @@ func Logger(s string) {
 }
 
 func LogFatal(s string) {
-	log.Printf("Fatal test: %s", s)
+	log.Printf("Fatal: %s", s)
 }
