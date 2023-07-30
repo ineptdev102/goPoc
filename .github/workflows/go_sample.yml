@@ -6,7 +6,7 @@ name: Go
 on:
   push:
     branches: [ "main" ]
-    paths: ['module/sample/go*']
+    paths: ['module/sample/go/*']
   pull_request:
     branches: [ "main" ]
 
